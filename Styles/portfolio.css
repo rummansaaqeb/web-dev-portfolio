@@ -136,3 +136,46 @@ main section{
 .skills-description{
     padding: 2.29px;
 }
+/* Resume Section Styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description{
+    color: #757575;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 30px;
+    
+}
+.resume-container hr{
+   margin: 30px 0px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* Footer Styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+
+}
