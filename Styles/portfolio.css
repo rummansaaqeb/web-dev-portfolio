@@ -204,15 +204,14 @@ footer textarea {
 }
 
 /* responsive media query */
-.hide {
-    display: none;
-}
+
 
 @media screen and (max-width: 576px) {
 
     .skills-container,
     .resume-container,
-    .about-items {
+    .about-items,
+    .banner {
         flex-direction: column;
     }
 
@@ -222,14 +221,38 @@ footer textarea {
         display: flex;
         flex-direction: column;
     }
+    .banner{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
 
     .footer-column {
         width: 100%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
     }
 
     input[type="text"],
     footer input[type="email"],
     footer textarea {
         width: calc(100% - 40px);
+    }
+}
+
+/* tablet specific media query */
+
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .banner{
+        flex-direction: column;
     }
 }
